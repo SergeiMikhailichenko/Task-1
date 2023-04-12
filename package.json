@@ -1,0 +1,23 @@
+{
+  "name": "task-1",
+  "version": "1.0.0",
+  "description": "<div class=\"Popup2 Popup2_visible Sideblock Sideblock_visible Sideblock_hasAnimation Sideblock_side_right Sideblock_theme_normal\" style=\"z-index: 1001;\"><div class=\"Sideblock-Content\"><div class=\"sideblock sideblock_size_large\"><button type=\"button\" class=\"Button2 Button2_size_l Button2_theme_clear Button2_view_lyceum sideblock__cross\" autocomplete=\"off\"><span data-lego=\"react\" class=\"icon icon_type_close-thin icon_size_l Button2-Icon\"></span></button><div class=\"y4ef2d--task-description-opener__sideblock\"><section class=\"y6c2ac--task-description\"><header class=\"y6c2ac--task-description__header\"><h1 class=\"heading heading_level_1 heading_smaller y6c2ac--task-description__heading\">Блоко</h1></header><div class=\"y6c2ac--task-description__content-wrapper\"><article class=\"y6c2ac--task-description__content\"><div class=\"problem-statement problem-statement_type_markdown\">\r <div class=\"header\">\r <h1 class=\"title\">Блоко</h1>\r </div>\r <h2></h2>\r <div class=\"legend\">\r <div class=\"Markdown\">\r <p class=\"paragraph\">До чего же разные идеи могут появляться у дизайнеров. Только что был получен очередной макет для сайдбара, но в нем есть только отдельные блоки разной формы, которыми необходимо заполнить сетку нашего компонента. Похоже, что блоки, как кирпичики, можно выкладывать друг на друга, и они выстраиваются таким образом, что в сайдбаре не остается пустого места.</p>\r <p class=\"paragraph\">Условия:</p>\r <ul>\r <li>\r <p class=\"paragraph\">Напишите функцию <code>layout</code>, которая будет заполнять эту сетку сверху вниз таким образом, чтобы не образовывались пустоты</p>\r </li>\r <li>\r <p class=\"paragraph\">Функция на вход принимает массив уникальных блоков</p>\r </li>\r <li>\r <p class=\"paragraph\">Сетка может быть разной ширины</p>\r </li>\r <li>\r <p class=\"paragraph\">Блок имеет свой уникальный номер</p>\r </li>\r <li>\r <p class=\"paragraph\">Форма блока произвольная, ширина всегда равна ширине сетки</p>\r </li>\r <li>\r <p class=\"paragraph\">Блоки имеют возможность перевернуться, чтобы встроиться в сетку</p>\r </li>\r <li>\r <p class=\"paragraph\">После того, как все блоки выстроятся, в компоненте не должно остаться пустот</p>\r </li>\r <li>\r <p class=\"paragraph\">Сайдбар всегда заполняется полностью (висящих пустот на любом наборе данных не будет)</p>\r </li>\r <li>\r <p class=\"paragraph\">Функция должна возвращать отчет о порядке выставления блоков и манипуляций с их поворотами</p>\r </li>\r </ul>\r <p class=\"paragraph\"></p>\r <div class=\"code\">\r <pre><code>interface Block {\r     id: number;\r     form: number[][];\r }",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeiMikhailichenko/Task-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeiMikhailichenko/Task-1/issues"
+  },
+  "homepage": "https://github.com/SergeiMikhailichenko/Task-1#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
