@@ -1,3 +1,5 @@
+    <html>
+    <body>
     <div class="header">
     <h1 class="title">Блоко</h1>
     </div>
@@ -242,3 +244,5 @@
     </div>
     </div>
     </div></article></div></section></div></div></div></div>
+      </body>
+</html>
